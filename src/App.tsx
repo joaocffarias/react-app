@@ -6,6 +6,7 @@ import Counter from './components/Counter';
 import Toggle from './components/Toggle';
 import BoasVindas from './components/BoasVindas';
 import Timer from './components/Timer';
+import DisplayContextUser from './components/PraticaContexto';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <BoasVindas firstName="Matuzalém" />
       <BoasVindas firstName="Noé" lastName="da Silva" />
       <Timer/>
+      <DisplayContextUser/>
     </div>
   );
 }

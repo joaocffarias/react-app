@@ -10,7 +10,7 @@ type HelloWorldProps = {
 //criação do componente
 //Componente funcional que recebe 'name' como prop
 const HelloWorld: React.FC<HelloWorldProps> = ({name}) => {
-    return <h1>Olá, {name}</h1>
+    return <h1>Ol&aacute, {name}</h1>
 };
 
 

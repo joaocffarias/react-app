@@ -7,6 +7,7 @@ import Toggle from './components/Toggle';
 import BoasVindas from './components/BoasVindas';
 import Timer from './components/Timer';
 import DisplayContextUser from './components/PraticaContexto';
+import DisplayUserContext from './components/UserContextGlobal';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <BoasVindas firstName="Noé" lastName="da Silva" />
       <Timer/>
       <DisplayContextUser/>
+      <DisplayUserContext />
     </div>
   );
 }
